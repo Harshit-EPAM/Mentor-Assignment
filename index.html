@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+
+            <h1>Harshit Godawat</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <div class="photo">
+                    <img src="X37.jpg" alt="John Doe" />
+                </div>
+                <div class="bio">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Harshit Godawat , a passionate computer engineer with expertise in data structures and web development. I specialize hunting down problems and creating scalable and efficient solutions for modern technological challenges.</p>
+                    <ul>
+                        <li>Experienced in Javascript , Python, and MySQL</li>
+                        <li>Skilled in Data Structures and Algorithms ( Codechef - 1791 - 3*) </li>
+                        <li>Deep knowledge about Cybersecurity and CTF challenges.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ol>
+                <li><strong>B.E. Computer Engineering</strong> - Dr. D.Y. Patil Institute of Technology (9.25 CGPA)</li>
+                <li><strong>HSC - G.G International School (83.00%)</strong></li>
+                <li><strong>SSC - G.G International School (85.00%)</strong></li>
+                <li><strong>Relevant Courses:</strong> Data Structures, Algorithms, Machine Learning</li>
+                <li><strong>College Committees:</strong> GDSC Co-Lead (Competitive Programming) , ACES Data Manager</li>
+            </ol>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Description</th>
+                        <th>Technologies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Travel Chatbot</td>
+                        <td>A travel chatbot which provides details regarding flight bookings and travel destinations with the concept of Machine Learning .</td>
+                        <td>Pytorch , Flask , SQL </td>
+                    </tr>
+                    <tr>
+                        <td>Bounty Aggregator</td>
+                        <td>A Bounty Aggregator platform which rewards bounties after completion of tasks.</td>
+                        <td>Javascript , Solidity</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section id="social-media">
+            <h2>Connect with Me</h2>
+            <ul class="social-links">
+                <li><a href="https://www.linkedin.com/in/harshit-godawat-4092942b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/Vector717" target="_blank">GitHub</a></li>
+                <li><a href="https://x.com/harshit_fcb9?t=_ZjO7xuAvbhxWhmGNHkpfw&s=09" target="_blank">Twitter</a></li>
+            </ul>
+        </section>
+
+        <section id="resume">
+            <h2>Download My Resume</h2>
+            <br>
+            <a href="My_Resume.pdf" download class="resume-link">Download Resume</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Harshit Godawat. All rights reserved.</p>
+    </footer>
+</body>
+</html>
